@@ -1,0 +1,67 @@
+/* Global CSS Starts 
+========================================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #EDEFFE;
+}
+
+/* Global CSS Ends 
+========================================*/
+
+
+/* Section CSS Starts 
+========================================*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    gap: 20px;
+}
+
+#box-1{
+    width: 250px;
+    height: 250px;
+    color: #FFF;
+    border: 2px solid #000;
+    transition: 0.4s ease;
+}
+
+#input-1, #input-2{
+    width: 25vh;
+    height: 3vh;
+    font-size: 15px;
+}
+
+#button-1{
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    border-color: transparent;
+    background-color: #00FFFF;
+    cursor: pointer;
+
+}
+
+#information{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Section CSS Ends 
+========================================*/
