@@ -1,0 +1,223 @@
+/* Global CSS Starts 
+===============================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(home.jpg);
+    object-fit: cover;
+    padding: 0 12%;
+    font-family: 'Lato', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Global CSS Ends 
+===============================================*/
+/*  */
+/*  */
+/*  */
+/* Header CSS Starts 
+===============================================*/
+
+.header{
+    height: 15vh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5%;
+}
+
+#links-1 ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 60px;
+}
+
+#logo-1{
+    font-size: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#links-1 ul li a{
+    font-size: 20px;
+    color: #FFF;
+    transition: 0.4s ease;
+}
+
+#links-1 ul li a:hover{
+    color: #00BBF0;
+}
+
+/* Header CSS Ends 
+===============================================*/
+/*  */
+/*  */
+/*  */
+/* Section-1 CSS Starts 
+===============================================*/
+
+#section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 60vh;
+    padding-right: 50%;
+    gap: 40px;
+}
+
+#title-1{
+    font-size: 40px;
+    color: #FFF;
+}
+
+#title-2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #79C2D0;
+}
+
+#p-1{
+    font-size: 20px;
+    color: #FFF;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    cursor: pointer;
+}
+
+#button-1{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 18px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #8594E4;
+    color: #081B29;
+    transition: 0.4s ease-in-out;
+}
+
+#button-1:hover{
+    background-color: #081B29;
+    color: #8594E4;
+    border-color: #8594E4;
+}
+
+#button-2{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 38px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #8594E4;
+    color: #8594E4;
+    transition: 0.4s ease-in-out;
+}
+
+#button-2:hover{
+    background-color: #8594E4;
+    color: #081B29;
+    border-color: transparent;
+}
+
+/* Section-1 CSS Ends 
+===============================================*/
+/*  */
+/*  */
+/*  */
+/* Section-2 CSS Starts 
+===============================================*/
+
+#section-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 20vh;
+}
+
+#icons-1{
+    width: 500px;
+}
+
+#icons-1 a i{
+    font-size: 20px;
+    color: #8594E4;
+    border: 1px solid #8594E4;
+    border-radius: 50%;
+    padding: 3%;
+    margin: 7px;
+    transition: 0.4s ease-in-out;
+}
+
+#icons-1 a i:hover{
+    background-color: #8594E4;
+    color: #081B29;
+}
+
+/* Section-2 CSS Ends 
+===============================================*/
+/*  */
+/*  */
+/*  */
+/* Responsive Design Starts 
+===============================================*/
+
+@media screen and (max-width: 800px){
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #logo-1{
+        text-align: center;
+        border-bottom: 1px solid #FFF;
+    }
+
+    #links-1 ul{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    #section-1{
+        height: 100vh;
+        padding-right: 0;
+    }
+
+    #button-1{
+        padding: 12px 28px;
+    }
+
+    #section-2{
+        margin-top: -15vh;
+    }
+}
+
+/* Responsive Design Ends 
+===============================================*/
