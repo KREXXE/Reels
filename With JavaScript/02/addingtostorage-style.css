@@ -1,0 +1,86 @@
+/* Global CSS Starts 
+==========================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #D59BF6;
+}
+
+/* Global CSS Ends 
+==========================================*/
+/*  */
+/*  */
+/*  */
+/* Section CSS Starts 
+==========================================*/
+
+.general-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.inputs{
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    transition: 0.4s linear;
+}
+
+.inputs:focus{
+    box-shadow: 2px 5px #888;
+    outline: none;
+    border: none;
+}
+
+.buttons-container{
+    display: flex;
+    column-gap: 25px;    
+}
+
+.buttons{
+    font-size: 17px;
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    background-color: #FFF;
+    transition: 0.4s linear;
+}
+
+.buttons:hover{
+    box-shadow: 2px 5px #888;
+    background-color: #9896F1;
+    color: #FFF;
+}
+
+#information{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    text-align: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+/* Section CSS Ends 
+==========================================*/
