@@ -1,0 +1,58 @@
+/* Global CSS Starts */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F1B963;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Global CSS Ends */
+/*  */
+/*  */
+/*  */
+/* Section CSS Starts */
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.links ul{
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+}
+
+.links ul li a{
+    font-size: 25px;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 13px 25px;
+    background-color: #8594E4;
+    border-radius: 10px;
+    transition: 0.4s ease;
+    outline: 5px solid #8594E4;
+}
+
+.links ul li a:hover{
+    outline-offset: 8px;
+}
+
+
+
+/* Section CSS Ends */
