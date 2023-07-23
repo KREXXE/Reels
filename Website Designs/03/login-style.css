@@ -1,0 +1,151 @@
+/* Global CSS Starts 
+=============================================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(wallpaper.jpg);
+    padding: 0 12%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Global CSS Ends 
+=============================================*/
+/*  */
+/*  */
+/*  */
+/* Header CSS Starts 
+=============================================*/
+
+.header{
+    height: 15vh;
+    padding: 2% 0;
+}
+
+#title-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-1 h2{
+    font-size: 40px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: #FFF;    
+}
+
+
+/* Header CSS Ends 
+=============================================*/
+/*  */
+/*  */
+/*  */
+/* Section CSS Starts 
+=============================================*/
+
+.section{
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 2%;
+    width: 400px;
+    height: 500px;
+    border-radius: 6%;
+    background-color: #1A2639;  
+}
+
+#title-2{
+    font-size: 25px;
+    padding: 12px 70px;
+    background-color: #5dacbd;
+    color: #FFF;
+    border-radius: 25px;
+    margin-bottom: 16px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.inputs input{
+    border: 1px solid transparent;
+    background-color: transparent;
+    border-bottom: 1px solid #5dacbd;
+    padding: 10px;
+    width: 275px;
+    color: #FFF;
+    font-size: 15px;
+    outline: 0;
+}
+
+.inputs input::placeholder{
+    color: #FFF;
+}
+
+#button-1 button{
+    font-size: 17px;
+    padding: 6px 40px;
+    border-radius: 17px;
+    border: 1px solid transparent;
+    background-color: #A2A8D3;
+    transition: 0.3s ease-in;
+}
+
+#button-1 button:hover{
+    border-radius: 0;
+    color: #FFF;
+}
+
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.paragraphs{
+    font-size: 18px;
+    color: #FFF;
+}
+
+#p-2 a{
+    color: #22B2DA;
+}
+
+.icons a i{
+    font-size: 26px;
+    margin: 12px;
+    color: #FFF;
+    transition: 0.4s ease-in;
+}
+
+.icons i:hover{
+    color: #7C73E6;
+}
+
+/* Section CSS Ends 
+=============================================*/
