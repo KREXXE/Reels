@@ -1,0 +1,427 @@
+/* Global CSS Starts 
+===============================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Global CSS Ends 
+===============================================*/
+/*  */
+/*  */
+/*  */
+/* Header Starts 
+===============================================*/
+
+.header{
+    height: 15vh;
+    padding: 0 12%;
+    margin-bottom: 5vh;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+    padding: 0.5%;
+    border-bottom: 1px solid #6C757D;
+}
+
+#icons-1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+#icons-1 i{
+    font-size: 20px;
+    transition: 400ms;
+}
+
+#icons-1 i:hover{
+    color: #B5179E;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#title-1{
+    font-size: 27px;
+    text-align: center;
+    background: -webkit-linear-gradient(0deg, #7209B7, #B5179E, #F72585);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#links-1 ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+#links-1 ul li a{
+    font-size: 20px;
+    color: #4361EE;
+    transition: 400ms;
+}
+
+#links-1 ul li a:hover{
+    color: #9E0059;
+}
+
+.login button{
+    font-size: 18px;
+    color: #FFF;
+    padding: 12px 18px;
+    background-color: #3F37C9;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    box-shadow: 0 10px 20px -6px #480CA8;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.login button:hover{
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+.login button:active{
+    opacity: 0.5;
+}
+
+/* Header CSS Ends 
+===============================================*/
+/*  */
+/*  */
+/*  */
+/* Section-1 CSS Starts 
+===============================================*/
+
+#section-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12%;
+    height: 100vh;
+    background: url(website-images/bg1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#title-2{
+    text-transform: uppercase;
+}
+
+#title-2, #title-3{
+    background: -webkit-linear-gradient(0deg, #7209B7, #B5179E, #F72585);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+#p-1{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#button-2 button{
+    font-size: 20px;
+    padding: 12px 20px;
+    background-color: #F72585;
+    color: #FFF;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: 400ms;
+}
+
+#button-2 button:hover,:focus{
+    text-shadow: 0 0 5px #ffffff,
+              0 0 10px #ffffff,
+              0 0 20px #ffffff;
+    box-shadow: 0 0 5px #F15BB5,
+              0 0 20px #F15BB5,
+              0 0 50px #F15BB5,
+              0 0 100px #F15BB5;
+}
+
+/* Section-1 CSS Ends 
+===============================================*/
+/*  */
+/*  */
+/*  */
+/* Section-2 CSS Starts 
+===============================================*/
+
+#section-2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 140vh;
+    width: 100%;
+}
+
+#title-4 h1{
+    font-size: 50px;
+    text-align: center;
+    background: -webkit-linear-gradient(0deg, #7209B7, #B5179E, #F72585);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.products-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.products-container-01, .products-container-02{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 450px;
+    gap: 15px;
+    border: 1px solid #888;
+    box-shadow: 2px 5px #8D18B9;
+    padding: 2%;
+}
+
+.products img{
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.products p{
+    font-size: 17px;
+    text-align: center;
+}
+
+.products h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.products h4{
+    font-size: 20px;
+    color: #000;
+    font-weight: 1000;
+}
+
+.products button{
+    font-size: 18px;
+    padding: 12px 18px;
+    color: #FFF;
+    background-color: #B91E9A;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    transition: 400ms;
+}
+
+.products button:hover{
+    box-shadow: 2px 5px #888;
+    transform: translateY(-5px);
+}
+
+/* Section-2 CSS Ends 
+===============================================*/
+/*  */
+/*  */
+/*  */
+/* Footer CSS Starts 
+===============================================*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 37vh;
+    background-color: #B81E9B;
+}
+
+.links-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 175px;
+}
+
+.links-container-01{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.links-container-01 h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.links-container-01 ul li{
+    list-style: square;
+    color: #FFF;
+}
+
+.links-container-01 ul li a{
+    color: #FFF;
+    text-align: center;
+    transition: 400ms;
+}
+
+.links-container-01 ul li a:hover{
+    color: #7A16C5;
+}
+
+.footer-information{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.footer-information #icons-2 a i{
+    font-size: 20px;
+    color: #FFF;
+    margin: 0 10px;
+    transition: 400ms;
+}
+
+.footer-information #icons-2 a i:hover{
+    color: #7A16C5;
+}
+
+/* Footer CSS Ends 
+===============================================*/
+/*  */
+/*  */
+/*  */
+/* Responsive CSS Starts 
+===============================================*/
+
+@media screen and (max-width: 1000px){
+    /* Header Part Starts
+    =========================*/
+    .header{
+        height: 32vh;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        padding: 5%;
+        border-bottom: 1px solid #888;
+    }
+    /* Header Part Ends 
+    =========================*/
+    /*  */
+    /* Section-1 Part Starts 
+    =========================*/
+    #section-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    #section-1 img{
+        width: 300px;
+        height: 300px;
+    }
+    /* Section-1 Part Ends 
+    =========================*/
+    /*  */
+    /* Section-2 Part Starts 
+    =========================*/
+    #section-2{
+        height: 440vh;
+    }
+
+    .products-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .products-container-01, .products-container-02{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+    /* Section-2 Part Ends 
+    =========================*/
+    /*  */
+    /* Footer Part Starts 
+    =========================*/
+    .footer{
+        height: 75vh;
+    }
+
+    .links-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    /* Footer Part Ends 
+    =========================*/
+}
+
+/* Responsive CSS Ends 
+===============================================*/
