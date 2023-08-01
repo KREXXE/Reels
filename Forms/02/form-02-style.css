@@ -1,0 +1,115 @@
+/* Global CSS Starts 
+=================================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+}
+
+
+/* Global CSS Ends
+=================================================*/
+/*  */
+/*  */
+/*  */
+/* Form CSS Starts 
+=================================================*/
+
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    width: 350px;
+    height: 400px;
+    background-color: #FFF;
+    border-radius: 10%;
+}
+
+.form-container h3{
+    font-size: 35px;
+}
+
+.form-container i{
+    font-size: 45px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.inputs input{
+    position: relative;
+    width: 3em;
+    height: 3em;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #EDEDE9;
+    border: 1px solid transparent;
+    box-shadow: inset 3px 3px 6px #D1D1D1,
+                inset -3px -3px 6px #FFF;
+    transition: 0.3s ease;
+}
+
+.inputs input:hover{
+    background-color: #FEFAE0;
+    box-shadow: none;
+}
+
+.inputs input:focus{
+    background-color: #8D99AE;
+    box-shadow: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons button{
+    border: 1px solid transparent;
+    background-color: #EDF2F4;
+    font-size: 15px;
+    box-shadow: 1px 1px 3px #B5B5B5,
+                -1px -1px 3px #FFF;
+    transition: 0.4s ease;
+}
+
+.buttons .button-1{
+    padding: 10px 75px;
+}
+
+.buttons .button-2{
+    padding: 10px 85px;
+}
+
+.buttons button:hover{
+    background-color: #FEFAE0;
+    box-shadow: none;
+}
+
+/* Form CSS Ends 
+=================================================*/
